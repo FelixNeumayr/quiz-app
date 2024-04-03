@@ -25,3 +25,39 @@ body {
    border-radius: 10px;
    
 }
+
+.fragebox {
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+}
+
+
+.button {
+        display: flex;
+        width: 12%;
+        align-self: center;
+    }
+
+    .tags {
+        /* align-items: flex-start; */
+
+        
+    }
+
+    li {
+        
+        display: inline-block;
+        padding: 5px 10px;
+        margin: 5px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: lightgray;
+    }
