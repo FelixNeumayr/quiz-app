@@ -1,63 +1,86 @@
 body {
     box-sizing: border-box;
+    position: fixed;
+    width:400px;
+    border: solid;  
+
+    }
+
+
+
+
+
+.header-class {
     
-}
-
-
-
-.container {
-    padding: 0 1%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    border-bottom: solid;   
     
 }
 
 
 .title {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 6rem;
-   background-color: lightgray;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   position: sticky;   
-   top: 0;
-   right: 0;
-   box-shadow: 0 2px 6px 3px;
-   border-radius: 10px;
-   
 }
+
 
 .fragebox {
     border: solid;
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px
     
 }
 
 .question {
-    display: flex;
-    justify-content: center;
-}
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    }
 
 
 .button {
-        display: flex;
-        width: 12%;
-        align-self: center;
+        padding: 10px 30px;
+        box-shadow: 0 2px 4px 1px;
+        font-size: 15px;     
     }
 
     .tags {
         /* align-items: flex-start; */
+            /* display: flex;
+            padding: 5px 10px;
+        margin: 5px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: lightgray; */
 
-        
+
+       
+
     }
+    
+
+
+
+
+
+
 
     li {
         
-        display: inline-block;
+        /* display: flex;
+        flex-direction: column;
         padding: 5px 10px;
         margin: 5px;
         border: 1px solid black;
         border-radius: 5px;
-        background-color: lightgray;
+        background-color: lightgray; */
+        display: flex;
+        flex-direction: row;
     }
